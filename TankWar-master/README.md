@@ -12,23 +12,23 @@
 
 ## 欢迎界面
 
-![](screenshot/start.jpg)
+![](screenshot/start.png)
 
 ## 帮助
 
-![](screenshot/help.jpg)
+![](screenshot/help.png)
 
 ## 游戏进行
 
-![](screenshot/game.jpg)
+![](screenshot/game.png)
 
 ## 游戏失败
 
-![](screenshot/lose.jpg)
+![](screenshot/lose.png)
 
 ## 游戏胜利
 
-![](screenshot/win.jpg)
+![](screenshot/win.png)
 
 # 文件结构
 
