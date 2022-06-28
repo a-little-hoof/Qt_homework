@@ -37,5 +37,5 @@ FORMS += mainwindow.ui \
     dialog_1.ui
 
 RESOURCES += \
-    Image.qrc
+    test.qrc
 RC_FILE = myapp.rc

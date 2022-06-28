@@ -42,7 +42,7 @@ MainWindow::MainWindow(QWidget *parent) :
         bul1->start();
     }
 
-    for(int bcnt=1;bcnt<2;bcnt++)
+    for(int bcnt=1;bcnt<4;bcnt++)
     {
         // 初始出生3个敌boss
         srand(clock());

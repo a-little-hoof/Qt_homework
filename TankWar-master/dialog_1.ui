@@ -23,9 +23,9 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>170</x>
-     <y>10</y>
-     <width>431</width>
+     <x>50</x>
+     <y>0</y>
+     <width>621</width>
      <height>241</height>
     </rect>
    </property>
@@ -40,7 +40,7 @@
    <property name="text">
     <string>                  Operation：
       moving:  WASD
-      fire:          Click </string>
+      Click the mouse to fire</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">

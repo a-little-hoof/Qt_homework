@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/694f3311d3f8a6ea080d9eb90abbfecf341e2e1d8b45-hbbOdK(1).png</file>
+        <file>image/bg1.jpg</file>
+        <file>image/bg2.jpg</file>
+        <file>image/Bomb_1.png</file>
+        <file>image/Bomb_2.png</file>
+        <file>image/boom.png</file>
+        <file>image/boss (1).png</file>
+        <file>image/boss (2).png</file>
+        <file>image/boss (3).png</file>
+        <file>image/boss (4).png</file>
+        <file>image/boss_bu(1).png</file>
+        <file>image/boss_bu(2).png</file>
+        <file>image/boss_bullet.png</file>
+        <file>image/Bullet.png</file>
+        <file>image/button.png</file>
+        <file>image/eBullet.jpg</file>
+        <file>image/EnemyTank_D.png</file>
+        <file>image/EnemyTank_L.png</file>
+        <file>image/EnemyTank_R.png</file>
+        <file>image/EnemyTank_U.png</file>
+        <file>image/exit.jpg</file>
+        <file>image/help.png</file>
+        <file>image/my_bullet.png</file>
+        <file>image/mytank (1).png</file>
+        <file>image/mytank (2).png</file>
+        <file>image/mytank (3).png</file>
+        <file>image/mytank (4).png</file>
+        <file>image/MyTank_D.png</file>
+        <file>image/MyTank_L.png</file>
+        <file>image/MyTank_R.png</file>
+        <file>image/MyTank_U.png</file>
+        <file>image/Thumbs.db</file>
+        <file>image/title2.png</file>
+        <file>image/wb1(1).png</file>
+    </qresource>
+</RCC>

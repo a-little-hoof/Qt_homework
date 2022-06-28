@@ -16,7 +16,7 @@ public:
 private slots:
     void on_pushButton_clicked();
     void on_L_Reco_clicked();
-    void on_EXIT_clicked();
+    void on_EXIT_clicked();//信号
 private:
     Ui::Dialog *ui;
 };

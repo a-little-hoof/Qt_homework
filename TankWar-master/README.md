@@ -1,12 +1,12 @@
 # 设计说明
 
-本程序基于 C++ & Qt 5.9 完成了一个坦克大战的设计，单人玩家控制1个主坦克，可以发射子弹、自由移动。
+本程序基于 Qt5.12 完成了一个坦克大战的设计，单人玩家控制1个主坦克，可以发射子弹、自由移动。
 
-胜利条件是击败在场的所有敌方坦克。
+胜利条件是击败在场的所有BOSS坦克。
 
-失败条件是我方血量被耗尽。
+失败条件是我方血量为0。
 
-操作按键：上下左右对应 WSAD，射击键为 J，或者鼠标左键
+操作按键：WASD控制坦克移动，单击鼠标进行射击
 
 # 界面展示
 
@@ -28,11 +28,7 @@
 
 ## 游戏胜利
 
-因为胜利条件太苛刻，我就成功了一次，但没有截图。
-
-根据我写的条件来看，游戏前期比较有希望赢，到后面坦克不断生产越来越难。
-
-可以视作坦克版飞机大战无尽版...
+![]()
 
 # 文件结构
 
@@ -44,34 +40,15 @@ Bullet.h/cpp
 Tank.h/cpp
 PlayerTank.h/cpp
 EnemyTank.h/cpp
+boss.h/cpp
 
 窗口对话框类
 mainwindow.h/cpp
 dialog.h/cpp
-dialog1.h/cpp
+dialog_1.h/cpp
 
 图片文件
-blood.png
-Bomb_1.png
-Bomb_2.png
-boom.png
-Bullet.png
-eBullet.png
-EnemyTank_D.png
-EnemyTank_L.png
-EnemyTank_R.png
-EnemyTank_U.png
-exit.jpg
-gamemap2.jpg
-help_background.jpg
-Life.png
-MyTank_D.png
-MyTank_L.png
-MyTank_R.png
-MyTank_U.png
-Time.png
-timo.jpg
-welcome_background.jpg
+
 ```
 
 # 各个类的功能
@@ -206,11 +183,3 @@ private:
     Ui::MainWindow *ui;
 };
 ```
-
-主要功能：
-1. 组织游戏的各个阶段（开始，帮助，游戏中，结束）
-2. 处理各类子弹与子弹、子弹与坦克碰撞，包括
-    * 玩家子弹-敌方坦克（敌方被打）
-    * 敌方子弹-玩家坦克（玩家被打）
-    * 敌方子弹-敌方子弹（子弹抵消）
-    * 玩家子弹-敌方子弹（子弹抵消）

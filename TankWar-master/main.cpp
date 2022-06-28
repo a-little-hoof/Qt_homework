@@ -8,6 +8,7 @@
 int main(int argc, char *argv[])
 {
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+    //调整界面自适应屏幕
     QApplication a(argc, argv);
 
     QApplication::addLibraryPath("./plugins");

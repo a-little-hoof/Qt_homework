@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>970</width>
-    <height>606</height>
+    <width>965</width>
+    <height>616</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -114,7 +114,7 @@ background-image:url(:/new/prefix1/image/wb1(1).png);</string>
     <string notr="true">background-image: url(:/new/prefix1/image/title2.png);</string>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#fafad2;&quot;&gt;--&lt;/span&gt;&lt;span style=&quot; color:#000000;&quot;&gt;--------&lt;/span&gt;&lt;span style=&quot; color:#dd0614;&quot;&gt;Tank Chaos&lt;/span&gt;&lt;span style=&quot; color:#000000;&quot;&gt;-------&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#dd0614;&quot;&gt;Tank Chaos&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
  </widget>
