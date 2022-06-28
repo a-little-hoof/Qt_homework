@@ -12,15 +12,15 @@
 
 ## 欢迎界面
 
-![](screenshot/welcome.jpg)
+![](screenshot/start.jpg)
 
-## 按键帮助
+## 帮助
 
 ![](screenshot/help.jpg)
 
 ## 游戏进行
 
-![](screenshot/gaming.jpg)
+![](screenshot/game.jpg)
 
 ## 游戏失败
 
@@ -28,7 +28,7 @@
 
 ## 游戏胜利
 
-![]()
+![](screenshot/win.jpg)
 
 # 文件结构
 
