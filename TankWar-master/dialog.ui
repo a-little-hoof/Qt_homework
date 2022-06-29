@@ -14,15 +14,14 @@
    <string>Tank Chaos</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="Image.qrc">
+   <iconset resource="test.qrc">
     <normaloff>:/new/prefix1/image/Bomb_1.png</normaloff>:/new/prefix1/image/Bomb_1.png</iconset>
   </property>
   <property name="windowOpacity">
    <double>10.000000000000000</double>
   </property>
   <property name="styleSheet">
-   <string notr="true">
-background-image:url(:/new/prefix1/image/wb1(1).png);</string>
+   <string notr="true">background-image: url(:/new/prefix1/image/wb1(1).png);</string>
   </property>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
@@ -119,7 +118,7 @@ background-image:url(:/new/prefix1/image/wb1(1).png);</string>
   </widget>
  </widget>
  <resources>
-  <include location="Image.qrc"/>
+  <include location="test.qrc"/>
  </resources>
  <connections/>
 </ui>

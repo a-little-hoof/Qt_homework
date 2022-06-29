@@ -14,6 +14,7 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
+    dialog_2.cpp \
     mainwindow.cpp \
     dialog.cpp \
     dialog_1.cpp \
@@ -21,7 +22,8 @@ SOURCES += main.cpp\
     EnemyTank.cpp \
     PlayerTank.cpp \
     Tank.cpp \
-    boss.cpp
+    boss.cpp \
+    mainwindow2.cpp
 
 HEADERS += mainwindow.h \
     dialog.h \
@@ -30,11 +32,15 @@ HEADERS += mainwindow.h \
     EnemyTank.h \
     PlayerTank.h \
     Tank.h \
-    boss.h
+    boss.h \
+    dialog_2.h \
+    mainwindow2.h
 
 FORMS += mainwindow.ui \
     dialog.ui \
-    dialog_1.ui
+    dialog_1.ui \
+    dialog_2.ui \
+    mainwindow2.ui
 
 RESOURCES += \
     test.qrc

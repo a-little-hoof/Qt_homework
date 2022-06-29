@@ -10,7 +10,7 @@
 #include "QLabel"
 #include "math.h"
 #include <QTimer>
-
+#include "dialog.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -726,6 +726,8 @@ void MainWindow::create_tank_boss()
 }
 void MainWindow::on_EXIT_clicked()
 {
+    Dialog * d=new Dialog();
+    d->show();
     this->close();
 }
 

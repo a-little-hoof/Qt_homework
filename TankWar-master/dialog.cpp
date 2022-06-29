@@ -3,6 +3,7 @@
 #include "mainwindow.h"
 #include "dialog_1.h"
 #include "QPainter"
+#include "dialog_2.h"
 
 Dialog::Dialog(QWidget *parent) :
     QDialog(parent),
@@ -22,9 +23,9 @@ Dialog::~Dialog()
 
 void Dialog::on_pushButton_clicked()
 {
-    MainWindow *m = new MainWindow();
-
-    m->show();  // 显示新窗口
+    Dialog_2 *d =new Dialog_2();
+    d->show();
+    this->close();
 }
 
 
